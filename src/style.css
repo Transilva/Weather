@@ -43,8 +43,7 @@ p {margin: 0; margin-bottom: 30px;}
 	cursor: pointer;
 }
 .form_btn:hover {background-color: #FFD7E7;}
-#capitals {width: 100%; height: auto; margin: 0; padding: 0; /*margin-bottom: 30px;
-*/}
+#capitals {width: 100%; height: auto; margin: 0; padding: 0; margin-bottom: 30px;}
 .city_btn {
 	width: 135px;
     background-color: white;
