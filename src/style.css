@@ -1,0 +1,62 @@
+body{
+	font: 18px Helvetica;
+	color: #241F75;
+	margin: 0 auto;
+	text-align: center;
+}
+h1 {font-size: 45px; margin: 0; margin-bottom: 45px;}
+p {margin: 0; margin-bottom: 30px;}
+.cb {clear: both;}
+#project{width: 100%; background-color: #6CE2E2;}
+#header{width: 100%; height: 300px; background:url(img/clouds.jpg); background-size: 530px;}
+#main_content{width: 100%; height: auto; padding: 30px 0;}
+
+.content_align{width: 850px; text-align:center; margin: 0 auto;}
+#search_form {
+	width: 100%;
+    height: 45px;
+    border: none;
+    margin: 0;
+    padding: 0;
+	margin-bottom: 50px;
+}
+.search_field {
+    width: 725px;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+	font-size: 20px;
+	color: #757575;
+	outline: none;
+}
+.form_btn {
+	width: 100px;
+    height: 45px;
+    float: right;
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+	background-color: white;
+	font-size: 20px;
+	color: #757575;
+	cursor: pointer;
+}
+.form_btn:hover {background-color: #FFD7E7;}
+#capitals {width: 100%; height: auto; margin: 0; padding: 0; margin-bottom: 30px;}
+.city_btn {
+	width: 135px;
+    background-color: white;
+    margin: 50px 74px;
+    margin-top: 0;
+    float: left;
+    padding: 35px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+	text-decoration: none;
+	color: #241F75;
+	font-size: 18px;
+}
+.city_btn:hover {background-color: #FFD7E7;}
+.search_field, .form_btn, .city_btn {border: none; box-shadow: 0px 1px 20px 0px #757575; border-radius: 20px;}
+#footer {width: 100%; height: 300px; background:url(img/clouds.jpg); background-size: 530px; transform: rotateX(180deg)}
